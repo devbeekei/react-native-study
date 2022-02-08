@@ -5,7 +5,7 @@ function Empty() {
   return (
     <View style={styles.container}>
       <Image
-        source={require('../assets/images/young_and_happy.png')}
+        source={require('../../assets/images/young_and_happy.png')}
         style={styles.image}
         resizeMode="contain"
       />

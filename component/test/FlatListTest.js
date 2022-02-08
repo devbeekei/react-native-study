@@ -18,7 +18,7 @@ function FlatListTest() {
           <View style={[styles.circle, item.done && styles.filled]}>
             {item.done && (
               <Image
-                source={require('../assets/icons/check_white/check_white.png')}
+                source={require('../../assets/icons/check_white/check_white.png')}
               />
             )}
           </View>

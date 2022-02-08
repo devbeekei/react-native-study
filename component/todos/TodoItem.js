@@ -36,7 +36,7 @@ function TodoItem({id, text, done, onDelete, onToggle}) {
         <View style={[styles.circle, done && styles.filled]}>
           {done && (
             <Image
-              source={require('../assets/icons/check_white/check_white.png')}
+              source={require('../../assets/icons/check_white/check_white.png')}
             />
           )}
         </View>

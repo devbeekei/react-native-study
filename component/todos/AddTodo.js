@@ -20,7 +20,7 @@ function AddTodo({onInsert}) {
   };
   const AddButton = (
     <View style={styles.button}>
-      <Image source={require('../assets/icons/add_white/add_white.png')} />
+      <Image source={require('../../assets/icons/add_white/add_white.png')} />
     </View>
   );
   return (
