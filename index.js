@@ -3,7 +3,7 @@
  */
 
 import {AppRegistry} from 'react-native';
-import NavigationApp from './app/NavigationApp';
+import MultiNavigationApp from './app/MultiNavigationApp';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => NavigationApp);
+AppRegistry.registerComponent(appName, () => MultiNavigationApp);
